@@ -1,0 +1,20 @@
+team:
+  name: MarTech Platform Team
+  slug: martech-platform
+  mission: >-
+    Provide reusable, well-governed MarTech capabilities through stable contracts
+    so partner teams can self-serve without recurring coordination meetings.
+
+interface:
+  version: 1.0.0
+  owners:
+    - role: Product Owner
+      alias: martech-po
+    - role: Technical Owner
+      alias: martech-tech-lead
+  channels:
+    intake: request-intake.md
+    support: support.md
+    governance: governance.md
+  service_catalog: service-catalog.md
+  changelog: changelog.md
